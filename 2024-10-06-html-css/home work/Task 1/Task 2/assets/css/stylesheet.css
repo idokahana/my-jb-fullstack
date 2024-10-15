@@ -1,0 +1,37 @@
+body {
+  background-color: darkolivegreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headLine {
+  font-size: x-large;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#list {
+  color: rgb(239, 246, 160);
+}
+
+h2 {
+  text-align: center;
+}
+#para {
+  font-weight: bold;
+  font-style: italic;
+  border: 1px solid black;
+}
+
+fieldset {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+legend {
+  text-align: center;
+  font-size: 70px;
+}
+
+a:hover {
+  font-size: 30px;
+}

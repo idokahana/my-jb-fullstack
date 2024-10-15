@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+div > p {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 25px 20px;
+}
+
+div > p:nth-child(1),
+div > p:nth-child(1) > a {
+  color: blueviolet;
+}
+div > p:nth-child(2),
+div > p:nth-child(2) > a {
+  color: cyan;
+}
+div > p:nth-child(3),
+div > p:nth-child(3) > a {
+  color: darkgreen;
+}

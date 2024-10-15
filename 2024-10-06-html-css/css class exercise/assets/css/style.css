@@ -1,0 +1,14 @@
+.headLine {
+  text-align: center;
+}
+
+input[type="search"] {
+  background-color: #58a558;
+}
+
+#form {
+  text-align: center;
+  border: 1px solid black;
+  width: fit-content;
+  margin: 0 auto;
+}

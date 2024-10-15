@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(14, 59, 44);
+}
+
+.headLine {
+  color: brown;
+  font-size: larger;
+}
+
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+body {
+  background-image: url(https://iris-bs.co.il/wp-content/uploads/2021/01/100145.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  direction: rtl;
+}
+
+.header-text {
+  width: fit-content;
+  margin: 0 auto;
+  color: brown;
+}
+.welcome-text {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-table {
+  border: 1px black solid;
+  width: fit-content;
+  display: block;
+}
+
+input {
+  background-color: yellow;
+}
+
+#img-container {
+  width: fit-content;
+  margin: 10% auto 0;
+}
+
+img {
+  height: 200px;
+}
+
+#copyrights {
+  text-align: center;
+  margin-top: 9.5%;
+}

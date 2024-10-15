@@ -1,0 +1,87 @@
+html {
+  border: 1px solid black;
+}
+
+body {
+  border: 1px solid red;
+}
+
+h1 {
+  color: greenyellow;
+  background-color: #58a558;
+}
+
+p {
+  color: red;
+}
+
+/* class selector */
+.cool-design {
+  color: rgb(74, 176, 185);
+  background-color: #ebb2eb;
+}
+
+.cool-design-big {
+  font-size: xx-large;
+  font-weight: bold;
+  color: chocolate;
+}
+.cool-design-small {
+  font-size: xx-small;
+}
+
+/* id selector */
+#last-paragraph {
+  font-size: xx-small;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* attribute selector */
+input[placeholder] {
+  background-color: yellow;
+}
+input[placeholder="first name"] {
+  border: 3px black dotted;
+}
+
+a {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: rgb(81, 117, 28);
+}
+
+/* combination of selectors */
+p::first-letter {
+  font-size: x-large;
+  color: cadetblue;
+}
+p::first-line {
+  background-color: rgb(124, 86, 124);
+}
+/* p that have cool design class */
+p.cool-design {
+  text-decoration: underline;
+}
+
+/* both html and body tag will applied whit the same margin and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* all a tags that has p tags as parent somewhere */
+p a {
+  color: black;
+}
+
+p > a {
+  border: 3px dashed green;
+}

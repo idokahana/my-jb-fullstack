@@ -1,0 +1,56 @@
+@font-face {
+  font-family: sefrumDemo;
+  src: url("/02-custom-css/assets/fonts/SefrumDemo.ttf");
+}
+
+h1 {
+  text-align: center;
+  font-family: sefrumDemo;
+  transition: 2s;
+  transform: rotate(-15deg) scale(0.5);
+}
+
+h1:hover {
+  color: green;
+  transform: rotate(15deg) scale(2);
+}
+
+@keyframes myAnima {
+  form {
+    color: blue;
+    transform: scale(1.5);
+  }
+  to {
+    color: red;
+    transform: scale(0.5);
+  }
+}
+
+p {
+  text-align: center;
+  margin-top: 100px;
+  animation: myLongAnima;
+}
+p:hover {
+  animation: myLongAnima 3s infinite alternate linear;
+}
+@keyframes myLongAnima {
+  0% {
+    color: blue;
+    transform: scale(1.5);
+  }
+  50% {
+    color: green;
+    transform: scale(3);
+  }
+  10% {
+    color: red;
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 32px;
+  }
+}

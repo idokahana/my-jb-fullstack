@@ -1,0 +1,10 @@
+.my-button-design {
+  color: white;
+  background-color: lightcoral;
+  font-size: 26px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.btn-warning {
+  background-color: chocolate;
+}

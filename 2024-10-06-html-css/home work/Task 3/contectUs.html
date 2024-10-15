@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./css/stylesheet.css" />
+  <body>
+    <h1 id="headline">! חנות החיות המגניבה בארץ</h1>
+    <hr />
+    <nav id="nav">
+      <a href="./index.html" class="a">דף הבית</a>
+      <a href="./animals.html" class="a">חיות</a>
+      <a href="./contectUs.html" class="a">צור קשר</a>
+    </nav>
+    <table>
+      <form action="./thankYou.html" method="get">
+      <tr>
+        <td><label for="firstName">שם פרטי</label></td>
+        <td><input type="text" id="firstName"></input></td>
+      </tr>
+      <tr>
+        <td><label for="lastName">שם משפחה</label></td>
+        <td><input type="text" id="lastName"></input></td>
+      </tr>
+      <tr>
+        <td><label>מין</label></td>
+        <td>
+          <label>
+          <input type="radio" name="gender" value="male"> זכר
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="female"> אישה
+        </label>
+      </td>
+      </tr>
+      <tr>
+        <td><label for="address">עיר</label></td>
+        <td>
+          <select name="city" id="address">
+            <option disabled selected>בחר עיר</option>
+            <option>חדרה</option>
+            <option>תל אביב</option>
+            <option>נתניה</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="message">הודעה</label></td>
+      <td>  <textarea name="message" id="messeage"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="reset"> נקה</button>
+          <button type="submit">שלח</button>
+        </td>
+      </tr>
+    </form>
+    </table>
+    <p id="copy">&copy; כל הזכיות שמורות</p>
+  </body>
+</html>
